@@ -1,0 +1,16 @@
+{
+  "name": "gauravbackend",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "keywords": [
+    "gaurav",
+    "node"
+  ],
+  "license": "ISC",
+  "author": "Gaurav kumar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
