@@ -12,7 +12,8 @@ var zlib = require('zlib');
 var reader = fs.createReadStream('Streams/example.txt');
 var writer = fs.createWriteStream('Streams/compressed_output.txt1.gz');
 
-var gzip = zlib.createDeflate();
+var gzip = zlib.createDeflate();   //second method to compress
+// var gzip = zlib.createGzip();      //first method to compress
 
 reader .pipe(gzip).pipe(writer);
 
